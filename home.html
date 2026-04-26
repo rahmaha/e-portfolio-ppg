@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Portfolio PPG Prajabatan</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grid-bg"></div>
+
+<nav>
+  <div class="nav-logo">
+    <span class="path">~/</span>e-portfolio
+  </div>
+
+  <!-- 🔹 HAMBURGER -->
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <ul class="nav-links">
+    <li><a href="#home">home</a></li>
+    <li><a href="#profil">profil</a></li>
+    <li><a href="#kompetensi">kompetensi</a></li>
+    <li><a href="#media">media</a></li>
+    <li><a href="#dokumentasi">dokumentasi</a></li>
+    <li><a href="#refleksi">refleksi</a></li>
+    <li><a href="#kontak">kontak</a></li>
+  </ul>
+  <div class="nav-status">
+    <div class="status-dot"></div>
+    <span class="status-full">online • PPG Prajabatan 2026</span>
+    <span class="status-short">online</span>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+<!-- ═══════════════════════════════════ HOME -->
+<div id="home" style="background: var(--bg); min-height: 100vh; display:flex; align-items:center;">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-tag">ppg-prajabatan · informatika · 2026</div>
+      <h1 class="hero-title">
+        <span class="line1">E-Portfolio</span>
+        <span class="line2">Calon Guru</span>
+        <span class="line3">Profesional.</span>
+      </h1>
+      <p class="hero-desc">
+        Dokumentasi perjalanan belajar, praktik mengajar, dan refleksi profesional selama program PPG Prajabatan — dibangun dengan dedikasi penuh.
+      </p>
+      <div class="hero-btns">
+        <a href="#profil" class="btn-primary">./explore.sh →</a>
+        <a href="#dokumentasi" class="btn-ghost">lihat dokumentasi</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">1</div>
+          <div class="stat-label">semester</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">media</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">8+</div>
+          <div class="stat-label">dokumentasi</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">4</div>
+          <div class="stat-label">kompetensi</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="t-dot r"></div>
+        <div class="t-dot y"></div>
+        <div class="t-dot g"></div>
+        <div class="t-title">portfolio.json</div>
+      </div>
+      <div class="terminal-body">
+        <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd"> cat portfolio.json</span></div>
+        <div class="t-line gap"></div>
+
+        <div class="t-line"><span class="t-out">{</span></div>
+
+        <div class="t-line"><span class="t-out">&nbsp;&nbsp;<span class="t-key">"name"</span>: <span class="t-str">"Rahma Hayuning Astuti"</span>,</span></div>
+        <div class="t-line"><span class="t-out">&nbsp;&nbsp;<span class="t-key">"program"</span>: <span class="t-str">"PPG Prajabatan"</span>,</span></div>
+        <div class="t-line"><span class="t-out">&nbsp;&nbsp;<span class="t-key">"bidang"</span>: <span class="t-str">"Informatika"</span>,</span></div>
+
+        <div class="t-line"><span class="t-out">&nbsp;&nbsp;<span class="t-key">"role"</span>: <span class="t-str">"Future Educator & IT Enthusiast"</span>,</span></div>
+        <br>
+        <div class="t-line"><span class="t-out">&nbsp;&nbsp;<span class="t-key">"status"</span>: <span class="t-val">true</span>,</span></div>
+        <div class="t-line"><span class="t-out">&nbsp;&nbsp;<span class="t-key">"angkatan"</span>: <span class="t-val">2026</span>,</span></div>
+        <div class="t-line"><span class="t-out">&nbsp;&nbsp;<span class="t-key">"ready"</span>: <span class="t-val">true</span></span></div>
+        <div class="t-line"><span class="t-out">}</span></div>
+        <div class="t-line gap"></div>
+        <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd"> <span class="t-cursor"></span></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════ PROFIL -->
+<section id="profil" class="reveal">
+  <div class="prompt"><span class="prompt-path">~/profil</span> — tentang saya</div>
+  <div class="sec-label">01 // profil mahasiswa</div>
+  <h2>Siapa Saya</h2>
+  <p class="lead">Calon pendidik bidang informatika dengan minat mendalam pada AI dan Machine Learning, kini menempuh PPG Prajabatan.</p>
+
+  <div class="profil-grid">
+    <div>
+      <div class="profil-card">
+        <div class="profil-card-top">
+          <div class="profil-avatar">??</div>
+          <div class="profil-name">Rahma Hayuning Astuti</div>
+          <div class="profil-role">// mahasiswa ppg prajabatan</div>
+        </div>
+        <div class="profil-card-body">
+          <div class="profil-row">
+            <span class="profil-row-k">NIM</span>
+            <span class="profil-row-v">25105260251</span>
+          </div>
+          <div class="profil-row">
+            <span class="profil-row-k">Prodi</span>
+            <span class="profil-row-v">Pend. Informatika</span>
+          </div>
+          <div class="profil-row">
+            <span class="profil-row-k">LPTK</span>
+            <span class="profil-row-v">Universitas Negeri Yogyakarta</span>
+          </div>
+          <div class="profil-row">
+            <span class="profil-row-k">Angkatan</span>
+            <span class="profil-row-v">2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="data-table">
+        <div class="data-table-head">
+          <span>field</span><span>value</span>
+        </div>
+        <div class="dt-row">
+          <span class="dt-k">sekolah_mitra</span>
+          <span class="dt-v">SMK N 2 Depok Sleman, Yogyakarta</span>
+        </div>
+        <div class="dt-row">
+          <span class="dt-k">dosen_pembimbing</span>
+          <span class="dt-v">Dr. Ir. Drs. Masduki Zakariah, M.T</span>
+        </div>
+        <div class="dt-row">
+          <span class="dt-k">guru_pamong</span>
+          <span class="dt-v">Rusli Abdul Hamid, S.Pd</span>
+        </div>
+        <div class="dt-row">
+          <span class="dt-k">mata_pelajaran</span>
+          <span class="dt-v">Informatika</span>
+        </div>
+        <div class="dt-row">
+          <span class="dt-k">kurikulum</span>
+          <span class="dt-v">Kurikulum Merdeka</span>
+        </div>
+        <div class="dt-row">
+          <span class="dt-k">jenjang</span>
+          <span class="dt-v">SMK kelas X</span>
+        </div>
+      </div>
+      <div class="bio-block">
+        // bio<br><br>
+        <p>
+          Saya merupakan peserta Program Pendidikan Profesi Guru (PPG) Prajabatan tahun 2026 pada bidang studi Informatika.
+          Memiliki ketertarikan dalam pemanfaatan teknologi digital sebagai media pembelajaran untuk meningkatkan keterlibatan peserta didik.
+          Dalam praktiknya, saya mengembangkan pembelajaran yang interaktif dan kontekstual melalui penggunaan berbagai platform pembelajaran digital.
+          Saya berkomitmen untuk terus mengembangkan kemampuan dalam merancang pembelajaran yang adaptif sesuai dengan kebutuhan peserta didik.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════ KOMPETENSI -->
+<section id="kompetensi" class="reveal" style="background: var(--bg2); max-width:100%; padding: 6rem 2rem;">
+  <div style="max-width: 1080px; margin: 0 auto;">
+    <div class="prompt"><span class="prompt-path">~/kompetensi</span> — capaian belajar</div>
+    <div class="sec-label">02 // empat kompetensi guru</div>
+    <h2>Kompetensi yang Dikembangkan</h2>
+    <p class="lead">Empat pilar kompetensi guru profesional yang dibentuk selama program PPG Prajabatan.</p>
+    <div class="komp-grid">
+      <div class="komp-cell">
+        <div class="komp-num">[ 01 ]</div>
+        <div class="komp-title">Pedagogik</div>
+        <div class="komp-desc">Memahami karakteristik peserta didik, merancang pembelajaran bermakna, dan mengevaluasi proses belajar secara holistik.</div>
+        <div class="komp-bar-wrap">
+          <div class="komp-bar"><div class="komp-bar-fill" style="width:85%"></div></div>
+          <div class="komp-pct">85%</div>
+        </div>
+      </div>
+      <div class="komp-cell">
+        <div class="komp-num">[ 02 ]</div>
+        <div class="komp-title">Profesional</div>
+        <div class="komp-desc">Penguasaan materi informatika secara mendalam, termasuk computational thinking, pemrograman, dan literasi digital.</div>
+        <div class="komp-bar-wrap">
+          <div class="komp-bar"><div class="komp-bar-fill" style="width:90%"></div></div>
+          <div class="komp-pct">90%</div>
+        </div>
+      </div>
+      <div class="komp-cell">
+        <div class="komp-num">[ 03 ]</div>
+        <div class="komp-title">Sosial</div>
+        <div class="komp-desc">Kemampuan berkomunikasi efektif dengan peserta didik, kolaborasi dengan rekan guru, dan keterlibatan dengan komunitas sekolah.</div>
+        <div class="komp-bar-wrap">
+          <div class="komp-bar"><div class="komp-bar-fill" style="width:82%"></div></div>
+          <div class="komp-pct">82%</div>
+        </div>
+      </div>
+      <div class="komp-cell">
+        <div class="komp-num">[ 04 ]</div>
+        <div class="komp-title">Kepribadian</div>
+        <div class="komp-desc">Integritas, keteladanan, kestabilan emosi, dan komitmen terhadap pengembangan diri sebagai pendidik profesional.</div>
+        <div class="komp-bar-wrap">
+          <div class="komp-bar"><div class="komp-bar-fill" style="width:88%"></div></div>
+          <div class="komp-pct">88%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════ MEDIA -->
+<section id="media" class="reveal">
+  <div class="prompt"><span class="prompt-path">~/media</span> — karya & inovasi</div>
+  <div class="sec-label">03 // media &amp; perangkat pembelajaran</div>
+  <h2>Media Pembelajaran</h2>
+  <p class="lead">Kumpulan karya — modul, slide, LKPD, video, dan media digital — yang dikembangkan selama PPG. Klik untuk akses file di Google Drive.</p>
+
+  <div class="media-filter">
+    <button class="filter-btn active" onclick="filterMedia('all', this)">semua</button>
+    <button class="filter-btn" onclick="filterMedia('modul', this)">modul</button>
+    <button class="filter-btn" onclick="filterMedia('media', this)">media</button>
+    <button class="filter-btn" onclick="filterMedia('bahan-ajar', this)">bahan ajar</button>
+  </div>
+
+  <div class="media-grid" id="mediaGrid">
+
+    <div class="media-card" data-cat="modul">
+      <div class="media-thumb">
+        <div class="media-thumb-icon">📄</div>
+        <span class="media-type-badge badge-pdf">PDF</span>
+      </div>
+      <div class="media-info">
+        <div class="media-cat">modul ajar</div>
+        <div class="media-title">Modul Ajar — [Topik 1]</div>
+        <a class="media-link" href="GANTI_LINK_GDRIVE_DISINI" target="_blank">↗ buka di Drive</a>
+      </div>
+    </div>
+
+    <div class="media-card" data-cat="modul">
+      <div class="media-thumb">
+        <div class="media-thumb-icon">📄</div>
+        <span class="media-type-badge badge-pdf">PDF</span>
+      </div>
+      <div class="media-info">
+        <div class="media-cat">modul ajar</div>
+        <div class="media-title">Modul Ajar — [Topik 2]</div>
+        <a class="media-link" href="GANTI_LINK_GDRIVE_DISINI" target="_blank">↗ buka di Drive</a>
+      </div>
+    </div>
+
+    <div class="media-card" data-cat="media">
+      <div class="media-thumb">
+        <div class="media-thumb-icon">📊</div>
+        <span class="media-type-badge badge-ppt">PPT</span>
+      </div>
+      <div class="media-info">
+        <div class="media-cat">presentasi</div>
+        <div class="media-title">Slide Pembelajaran — [Topik]</div>
+        <a class="media-link" href="GANTI_LINK_GDRIVE_DISINI" target="_blank">↗ buka di Drive</a>
+      </div>
+    </div>
+
+    <div class="media-card" data-cat="media">
+      <div class="media-thumb">
+        <div class="media-thumb-icon">📝</div>
+        <span class="media-type-badge badge-pdf">PDF</span>
+      </div>
+      <div class="media-info">
+        <div class="media-cat">lkpd</div>
+        <div class="media-title">LKPD — [Topik Praktikum]</div>
+        <a class="media-link" href="GANTI_LINK_GDRIVE_DISINI" target="_blank">↗ buka di Drive</a>
+      </div>
+    </div>
+
+    <div class="media-card" data-cat="media">
+      <div class="media-thumb">
+        <div class="media-thumb-icon">🎬</div>
+        <span class="media-type-badge badge-vid">VIDEO</span>
+      </div>
+      <div class="media-info">
+        <div class="media-cat">video pembelajaran</div>
+        <div class="media-title">Video Materi — [Topik]</div>
+        <a class="media-link" href="GANTI_LINK_GDRIVE_DISINI" target="_blank">↗ buka di Drive</a>
+      </div>
+    </div>
+
+    <div class="media-card" data-cat="bahan-ajar">
+      <div class="media-thumb">
+        <div class="media-thumb-icon">✅</div>
+        <span class="media-type-badge badge-link">LINK</span>
+      </div>
+      <div class="media-info">
+        <div class="media-cat">kuis interaktif</div>
+        <div class="media-title">Quizizz / Google Form Evaluasi</div>
+        <a class="media-link" href="GANTI_LINK_DISINI" target="_blank">↗ buka kuis</a>
+      </div>
+    </div>
+
+    <div class="media-card" data-cat="bahan-ajar">
+      <div class="media-thumb">
+        <div class="media-thumb-icon">📋</div>
+        <span class="media-type-badge badge-pdf">PDF</span>
+      </div>
+      <div class="media-info">
+        <div class="media-cat">instrumen penilaian</div>
+        <div class="media-title">Rubrik &amp; Soal Evaluasi</div>
+        <a class="media-link" href="GANTI_LINK_GDRIVE_DISINI" target="_blank">↗ buka di Drive</a>
+      </div>
+    </div>
+
+    <div class="media-card" data-cat="modul">
+      <div class="media-thumb">
+        <div class="media-thumb-icon">📑</div>
+        <span class="media-type-badge badge-pdf">PDF</span>
+      </div>
+      <div class="media-info">
+        <div class="media-cat">rpp / atp</div>
+        <div class="media-title">ATP &amp; CP Informatika</div>
+        <a class="media-link" href="GANTI_LINK_GDRIVE_DISINI" target="_blank">↗ buka di Drive</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════ DOKUMENTASI -->
+<section id="dokumentasi" class="reveal" style="background: var(--bg2); max-width:100%; padding: 6rem 2rem;">
+  <div style="max-width: 1080px; margin: 0 auto;">
+    <div class="prompt"><span class="prompt-path">~/dokumentasi</span> — jejak kegiatan</div>
+    <div class="sec-label">04 // log aktivitas</div>
+    <h2>Dokumentasi Kegiatan</h2>
+    <p class="lead">Rekam jejak kegiatan dari orientasi hingga PPL terbimbing. Semua file tersimpan di Google Drive.</p>
+
+    <div class="timeline">
+
+      <!-- ITEM 1: Orientasi -->
+      <div class="tl-item">
+        <div class="tl-date"><strong>Feb 2026</strong>Minggu 1</div>
+        <div class="tl-content">
+          <div class="tl-title">Orientasi Program PPG Prajabatan</div>
+          <div class="tl-desc">Pengenalan program, kurikulum merdeka dan sekolah mitra.</div>
+          <!-- FOTO STRIP: ganti FOTO_ID_1 dst dengan ID foto dari Google Drive -->
+          <div class="tl-photos">
+            <a class="tl-photo" href="https://drive.google.com/file/d/FOTO_ID_1/view" target="_blank">
+              <img src="https://drive.google.com/thumbnail?id=FOTO_ID_1&sz=w400" alt="Orientasi PPG"
+                onerror="this.parentElement.innerHTML='<div class=\'tl-photo-placeholder\'><span>📷</span>ganti ID foto</div>'">
+            </a>
+            <a class="tl-photo" href="https://drive.google.com/file/d/FOTO_ID_2/view" target="_blank">
+              <img src="https://drive.google.com/thumbnail?id=FOTO_ID_2&sz=w400" alt="Orientasi PPG 2"
+                onerror="this.parentElement.innerHTML='<div class=\'tl-photo-placeholder\'><span>📷</span>ganti ID foto</div>'">
+            </a>
+          </div>
+          <div class="tl-tags">
+            <span class="tl-tag tl-foto">📷 foto</span>
+            <span class="tl-tag tl-doc">📄 dokumen</span>
+            <a href="GANTI_LINK_GDRIVE_FOLDER" target="_blank" style="font-size:0.68rem; color: var(--amber); text-decoration:none; margin-left:4px;">↗ semua foto di Drive</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 2: Bimbingan dengan GP dan DPL -->
+      <div class="tl-item">
+        <div class="tl-date"><strong>2026</strong></div>
+        <div class="tl-content">
+          <div class="tl-title">Bimbingan dengan Guru Pamong dan Dosen Pembimbing Lapangan</div>
+          <div class="tl-desc">Konsultasi mengenai permasalahan selama melakukan PPL</div>
+          <div class="tl-photos">
+            <a class="tl-photo" href="https://drive.google.com/file/d/FOTO_ID_3/view" target="_blank">
+              <img src="https://drive.google.com/thumbnail?id=FOTO_ID_3&sz=w400" alt="Lokakarya"
+                onerror="this.parentElement.innerHTML='<div class=\'tl-photo-placeholder\'><span>📷</span>ganti ID foto</div>'">
+            </a>
+            <a class="tl-photo" href="https://drive.google.com/file/d/FOTO_ID_4/view" target="_blank">
+              <img src="https://drive.google.com/thumbnail?id=FOTO_ID_4&sz=w400" alt="Lokakarya 2"
+                onerror="this.parentElement.innerHTML='<div class=\'tl-photo-placeholder\'><span>📷</span>ganti ID foto</div>'">
+            </a>
+          </div>
+          <div class="tl-tags">
+            <span class="tl-tag tl-foto">📷 foto</span>
+            <span class="tl-tag tl-doc">📄 dokumen</span>
+            <a href="GANTI_LINK_GDRIVE_FOLDER" target="_blank" style="font-size:0.68rem; color: var(--amber); text-decoration:none; margin-left:4px;">↗ semua foto di Drive</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ITEM 3: PPL Terbimbing -->
+      <div class="tl-item">
+        <div class="tl-date"><strong>April 2026</strong>Minggu 1–2</div>
+        <div class="tl-content">
+          <div class="tl-title">PPL Terbimbing</div>
+          <div class="tl-desc">Praktik mengajar terbimbing di sekolah mitra dengan supervisi guru pamong dan dosen pembimbing lapangan.</div>
+          <div class="tl-photos">
+            <a class="tl-photo" href="https://drive.google.com/file/d/FOTO_ID_5/view" target="_blank">
+              <img src="https://drive.google.com/thumbnail?id=FOTO_ID_5&sz=w400" alt="PPL Terbimbing"
+                onerror="this.parentElement.innerHTML='<div class=\'tl-photo-placeholder\'><span>📷</span>ganti ID foto</div>'">
+            </a>
+            <a class="tl-photo" href="https://drive.google.com/file/d/FOTO_ID_6/view" target="_blank">
+              <img src="https://drive.google.com/thumbnail?id=FOTO_ID_6&sz=w400" alt="PPL Terbimbing 2"
+                onerror="this.parentElement.innerHTML='<div class=\'tl-photo-placeholder\'><span>📷</span>ganti ID foto</div>'">
+              <div class="tl-photo-count">+5 foto</div>
+            </a>
+          </div>
+          <div class="tl-tags">
+            <span class="tl-tag tl-foto">📷 foto</span>
+            <span class="tl-tag tl-video">🎬 video</span>
+            <a href="GANTI_LINK_GDRIVE_FOLDER" target="_blank" style="font-size:0.68rem; color: var(--amber); text-decoration:none; margin-left:4px;">↗ semua di Drive</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════ REFLEKSI -->
+<section id="refleksi" class="reveal">
+  <div class="prompt"><span class="prompt-path">~/refleksi</span> — pembelajaran dari pengalaman</div>
+  <div class="sec-label">05 // refleksi profesional</div>
+  <h2>Refleksi &amp; Pembelajaran</h2>
+  <p class="lead">Catatan jujur tentang proses, tantangan, dan pertumbuhan selama menjalani PPG Prajabatan.</p>
+
+  <div class="refleksi-grid">
+    <div class="refleksi-card" data-num="01">
+      <div class="refleksi-label">// refleksi · praktik mengajar</div>
+      <div class="refleksi-title">Menghadapi Kelas Pertama</div>
+      <div class="refleksi-text">
+        "Pengalaman pertama mengajar memberikan kesan yang cukup menantang sekaligus berharga bagi saya.
+        Pada awalnya saya merasa gugup dan belum sepenuhnya percaya diri dalam mengelola kelas, terutama dalam menjaga fokus dan interaksi peserta didik.
+        Namun, saya mulai memahami bahwa membangun komunikasi yang baik dan suasana belajar yang nyaman menjadi kunci penting dalam proses pembelajaran.
+        Beberapa hal yang berjalan baik adalah antusiasme peserta didik saat menggunakan media pembelajaran digital, meskipun saya masih perlu meningkatkan kemampuan dalam mengatur waktu dan mengondisikan kelas.
+        Dari pengalaman ini, saya menyadari bahwa menjadi guru tidak hanya menyampaikan materi, tetapi juga memahami dinamika kelas dan kebutuhan peserta didik."
+      </div>
+      <div class="refleksi-by">— semester 1, PPL</div>
+    </div>
+
+    <div class="refleksi-card" data-num="02">
+      <div class="refleksi-label">// refleksi · pengembangan materi</div>
+      <div class="refleksi-title">Merancang Pembelajaran Bermakna</div>
+      <div class="refleksi-text">
+        "Dalam proses merancang pembelajaran, saya menyadari bahwa tidak mudah menyusun materi yang tidak hanya sesuai dengan tujuan pembelajaran, tetapi juga menarik bagi peserta didik.
+        Saya mencoba memanfaatkan platform digital sebagai media pembelajaran untuk meningkatkan keterlibatan siswa, meskipun dalam pelaksanaannya masih terdapat beberapa kendala, seperti penyesuaian waktu dan kesiapan peserta didik.
+        Proses ini membantu saya memahami pentingnya perencanaan yang matang serta fleksibilitas dalam mengajar.
+        Hal yang paling berkesan bagi saya adalah ketika peserta didik terlihat lebih aktif dan terlibat saat menggunakan media pembelajaran yang interaktif."
+      </div>
+      <div class="refleksi-by">— semester 1, PPL</div>
+    </div>
+
+    <div class="refleksi-card" data-num="03">
+      <div class="refleksi-label">// refleksi · pertumbuhan pribadi</div>
+      <div class="refleksi-title">Menjadi Versi Terbaik Diri</div>
+      <div class="refleksi-text">
+        "Selama mengikuti PPL terbimbing, saya merasakan adanya perubahan dalam cara saya memandang proses pembelajaran.
+        Saya menjadi lebih sadar bahwa peran guru tidak hanya sebagai penyampai materi, tetapi juga sebagai fasilitator yang membantu peserta didik dalam memahami dan mengembangkan potensi mereka.
+        Selain itu, saya juga mulai belajar untuk lebih sabar, adaptif, dan terbuka terhadap masukan.
+        Meskipun masih dalam tahap belajar, pengalaman ini menjadi langkah awal bagi saya untuk terus berkembang menjadi pendidik yang lebih baik."
+      </div>
+      <div class="refleksi-by">— semester 1, PPL</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════ Kontak -->
+<section id="kontak" class="reveal" style="background: var(--bg2); max-width:100%; padding: 6rem 2rem;">
+  <div style="max-width: 1080px; margin: 0 auto;">
+    <div class="prompt"><span class="prompt-path">~/kontak</span> — let's connect</div>
+    <div class="sec-label">06 // kontak</div>
+    <h2>Hubungi Saya</h2>
+    <p class="lead">Tertarik untuk berdiskusi, kolaborasi, atau sekadar bertukar ide? Silakan hubungi saya melalui kontak berikut.</p>
+    <!-- 🔹 Tombol Sosial -->
+     <div class="contact-wrapper">
+
+      <!-- KIRI -->
+      <div class="contact-left">
+        <div class="contact-buttons">
+          <div class="contact-buttons">
+          <a href="https://www.linkedin.com/in/rahma-hayuning-astuti-a1023b1aa/" target="_blank" class="btn-contact">LinkedIn</a>
+          <a href="https://github.com/rahmaha" target="_blank" class="btn-contact">GitHub</a>
+          <a href="mailto:rahmahayuningastuti@gmail.com" class="btn-contact">Email</a>
+        </div>
+        </div>
+      </div>
+
+      <!-- KANAN -->
+      <div class="contact-right">
+        <img src="fotokamu.jpg" alt="Foto Profil">
+        <img src="github-preview.png" alt="Preview GitHub">
+        <img src="project1.png" alt="Project">
+      </div>
+
+      </div>
+  </div>
+</section>
+
+<footer>
+  <div>
+    <div class="footer-logo">e-portfolio · ppg prajabatan 2026</div>
+    <div style="margin-top:4px;">Rahma Hayuning Astuti · Informatika</div>
+  </div>
+  <div class="footer-r">
+    <span>built with ♥ &amp; caffeine</span>
+    <span style="color: var(--border2);">|</span>
+    <span>hosted on github pages</span>
+  </div>
+</footer>
+
+</div><!-- end page-wrap -->
+
+<script src="script.js"></script>
+</body>
+</html>

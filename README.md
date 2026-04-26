@@ -1,2 +1,17 @@
-# e-portfolio-ppg
-E-Portfolio PPG Calon Guru Informatika 2026, Universitas Negeri Yogyakarta
+# E-Portfolio PPG Prajabatan 2026
+
+Website portfolio ini berisi dokumentasi kegiatan, refleksi, serta pengembangan kompetensi selama mengikuti Program Pendidikan Profesi Guru (PPG) Prajabatan bidang Informatika.
+
+## 🔗 Live Website
+https://username.github.io/repo/
+
+## 📌 Fitur
+- Tampilan responsive
+- Terminal-style UI
+- Dokumentasi pembelajaran
+- Refleksi pengalaman mengajar
+
+## 🛠️ Teknologi
+- HTML
+- CSS
+- JavaScript

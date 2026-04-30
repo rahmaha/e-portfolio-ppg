@@ -3,7 +3,7 @@
 Website portfolio ini berisi dokumentasi kegiatan, refleksi, serta pengembangan kompetensi selama mengikuti Program Pendidikan Profesi Guru (PPG) Prajabatan bidang Informatika.
 
 ## 🔗 Live Website
-https://username.github.io/repo/
+https://rahmaha.github.io/e-portfolio-ppg/
 
 ## 📌 Fitur
 - Tampilan responsive
